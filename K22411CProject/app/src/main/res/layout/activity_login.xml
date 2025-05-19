@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="416dp"
+        android:layout_height="41dp"
+        android:background="#EF4747"
+        android:text="Login System"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="416dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="124dp"
+        android:text="Button"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="416dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="196dp"
+        android:text="Close"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="412dp"
+        android:layout_height="30dp"
+        android:background="#03A9F4"
+        android:text="User Name"
+        android:textAlignment="viewStart"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="412dp"
+        android:layout_height="30dp"
+        android:background="#03A9F4"
+        android:text="Password"
+        android:textAlignment="viewStart"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="326dp"
+        android:layout_height="316dp"
+        android:rotationY="0"
+        app:srcCompat="@mipmap/ic_icon1"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
