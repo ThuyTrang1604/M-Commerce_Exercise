@@ -37,12 +37,10 @@ public class SimulationData {
         getProducts().add(p);
     }
     public static List<Account> getAccounts() {
-        if (accounts == null) {
-            accounts = new ArrayList<>();
-            accounts.add(new Account(1, "admin", "admin"));
-            accounts.add(new Account(2, "user1", "pass1"));
-            accounts.add(new Account(3, "user2", "pass2"));
+        List<Account> list = new ArrayList<>();
+        for (int i = 1; i <= 10; i++) {
+            list.add(new Account(i, "user" + i, "pass" + i));
         }
-        return accounts;
+        return list;
     }
 } 
