@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#98FBF8BD"
+        android:padding="16dp"
+        android:text="@string/title_payment_method"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/lvPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+</LinearLayout>
