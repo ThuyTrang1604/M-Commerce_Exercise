@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CreateTaskActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#102595"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Create Task" />
+
+    <EditText
+        android:id="@+id/edtTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task title" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="6dp"
+        android:text="@string/title_admin_assignto"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:text="Assign to:" />
+
+    <Spinner
+        android:id="@+id/spinnerEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/tvCustomerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Phone Numbers:"
+        android:textStyle="bold"
+        android:background="#FFEB3B"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/txtCustomerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#4303A9F4"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSelectCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SELECT CUSTOMER" />
+
+    <ListView
+        android:id="@+id/listViewCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+       android:text="CREATE TASK"/>
+
+</LinearLayout> 

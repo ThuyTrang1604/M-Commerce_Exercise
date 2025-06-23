@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PhanThiThuyTrang_K224111470_K22411C</string>
+    <string name="title_login_user_name">User name:</string>
+    <string name="title_login_user_name_hint">Enter your user name</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_save_login_infor">Save login info</string>
+    <string name="title_login_button_login">LOGIN</string>
+    <string name="title_task_list">List of Task</string>
+    <string name="title_create_task">Create Task</string>
+    <string name="title_category">Category</string>
+    <string name="err_empty_credentials">Please enter username and password</string>
+    <string name="err_invalid_credentials">Invalid username or password</string>
+    <string name="title_task_to_call">Current Task to Call:</string>
+    <string name="title_admin_create_task">Create Task</string>
+    <string name="title_select_customer">Select Customer</string>
+    <string name="title_button_create_task">Create Task</string>
+    <string name="title_admin_assignto">Assign to:</string>
+</resources>
