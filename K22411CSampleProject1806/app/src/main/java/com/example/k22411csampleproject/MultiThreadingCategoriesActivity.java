@@ -1,0 +1,46 @@
+package com.example.k22411csampleproject;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class MultiThreadingCategoriesActivity extends AppCompatActivity {
+    EditText edtNumberOfCustomer;
+    Button BtnLoadCustomer;
+    TextView txtPercent;
+    ProgressBar progressBarPercent;
+    ListView lvCustomer;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_multi_threading_categories);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+    }
+    public void openHandlerSendMessageActivity(View view) {
+        Intent intent=new Intent(MultiThreadingCategoriesActivity.this,HandlerSendMessageActivity.class);
+        startActivity(intent);
+    }
+
+    public void openHandlerPostMessageActivity(View view) {
+        Intent intent=new Intent(MultiThreadingCategoriesActivity.this,HandlerPostMessageActivity.class);
+        startActivity(intent);
+    }
+}

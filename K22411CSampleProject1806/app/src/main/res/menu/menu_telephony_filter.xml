@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_show_all"
+        android:title="Tất cả" />
+    <item
+        android:id="@+id/menu_show_statistics"
+        android:title="Thống kê nhà mạng" />
+    <item
+        android:id="@+id/menu_filter_viettel"
+        android:title="Lọc Viettel" />
+    <item
+        android:id="@+id/menu_filter_mobifone"
+        android:title="Lọc MobiFone" />
+    <item
+        android:id="@+id/menu_filter_vinaphone"
+        android:title="Lọc Vinaphone" />
+    <item
+        android:id="@+id/menu_filter_vietnamobile"
+        android:title="Lọc Vietnamobile" />
+    <item
+        android:id="@+id/menu_filter_gmobile"
+        android:title="Lọc Gmobile" />
+    <item
+        android:id="@+id/menu_filter_other"
+        android:title="Lọc nhà mạng khác" />
+</menu> 
